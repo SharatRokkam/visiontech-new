@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+.box {
+  color: chartreuse;
+  /* width: 100%; */
+  /* height: 20%; */
+
+  background-color: brown;
+  font-family: "PT Serif", serif;
+  font-size: 45px;
+}
+
+span {
+  /* direct name value  */
+  background-color: blueviolet;
+}
+
+img {
+  width: 100px;
+}
+
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7CPO14v3EcIZOa-7poxHfRgD1WF4wsXlFFu_T564NYKTm-K_ThCsnh_dL&s=10");
+  background-repeat: no-repeat;
+  /* viewport width and height:  ; */
+  background-size: cover;
+}
+
+#heading {
+  /* hex values  */
+  color: #fffce1;
+  /* background-color: rgb(104, 5, 5); */
+  background-image: url(../HTML/merecedes.avif);
+  width: 50%;
+  height: 200px;
+  background-position: center;
+  text-align: center;
+  font-size: 90px;
+  /* font-style: italic; */
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  font-family: "Black Ops One", system-ui;
+}
+
+/* div - complete width of the screen  - block level element*/
+/* span - takes necessary space - inline level element  */
+
+/* block element - h1, p, div,  */

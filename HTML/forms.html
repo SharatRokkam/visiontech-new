@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms in HTML</title>
+  </head>
+  <body>
+    <!-- signup, login, student registration, aadhar registration  -->
+    <!-- Form  -->
+    <center>
+      <h1>Pete's Pizza Delivery</h1>
+      <h2>Online Order Form</h2>
+
+      <p>* required fields</p>
+
+      <form>
+        <fieldset>
+          <legend>Customer's Fields</legend>
+          <label for="name">Name : </label>
+          <input type="text" placeholder="enter your name..." />
+
+          <br />
+          <br />
+          <label for="address">Address :</label>
+          <input type="text" placeholder="enter your address" />
+          <br />
+          <br />
+          <label for="City">City:</label>
+          <input type="text" placeholder="enter your city" />
+          <br />
+          <br />
+
+          <label for="postcode">Post code : </label>
+          <input type="number" placeholder="enter your postcode.." />
+
+          <br /><br />
+
+          <label for="tel">Tel:</label>
+          <input type="tel" placeholder="enter your telephone" />
+
+          <br /><br />
+          <label for="Email">Email:</label>
+          <input type="email" placeholder="enter your email" />
+        </fieldset>
+
+        <!-- Important -->
+        <!-- circle is called as radio button and square is called as check box  -->
+        <!-- radio button is used to select only one value from the given option  -->
+        <!-- check box is used to select more than one option -->
+
+        <!-- gender - male, female or transgender -->
+        <fieldset>
+          <legend>Topping's</legend>
+          <input type="radio" name="toppings" /> Margherita <br />
+          <input type="radio" name="toppings" /> Four Seasons <br />
+          <input type="radio" name="toppings" /> Meat Feast
+        </fieldset>
+
+        <fieldset>
+          <legend>Extras</legend>
+          <input type="checkbox" name="extra1" /> Mushrooms <br />
+          <input type="checkbox" name="extra2" /> Chicken <br />
+          <input type="checkbox" name="extra3" /> Extra Cheese
+        </fieldset>
+
+        <input type="password">
+        <input type="color" name="" id="">
+
+        <label for="deliverytime">Delivery Time</label>
+        <input type="datetime-local">
+
+
+      </form>
+    </center>
+  </body>
+</html>

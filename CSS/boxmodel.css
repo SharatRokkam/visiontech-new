@@ -1,0 +1,76 @@
+*{
+    margin: 0;    
+    padding: 0; 
+    background-color: blueviolet;
+}
+
+
+/* .box {
+  border-width: 2px;
+    border-style: dashed;
+    border-color: blue;
+
+  shorthand 
+  border: 2px solid red;
+  background-color: bisque;
+  border-radius: 50%;
+
+  padding: top right bottom left ;
+  padding: 30px 45px 60px 33px;
+     padding-left: 40px;
+
+
+    margin: top right bottom left ;
+    margin: 15px 0 0 100px;
+
+
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  } */
+  
+  
+  /* h1{
+    
+  } */
+  
+  /* .box{
+    
+  } */
+  
+  /* #webpage{
+    
+  } */
+  
+  h3, p, span{
+      color: red;
+  }
+
+
+  input[type="text"]{
+    color: yellow;
+  } 
+
+
+  /* pseudo selectors  */
+  input::placeholder{
+    color: white;
+  }
+
+  h3:hover{
+        color: white;
+        transition: 0.5s;
+  }
+
+
+
+/* Selectors 
+1. Element Selector - h1, div, span, table, form
+2. Class Selector (.) - 
+3. Id Selector (#)
+4. universal selector
+5. Attribute Selector
+6. Pseudo Selectors 
+
+
+*/
