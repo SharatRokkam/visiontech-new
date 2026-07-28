@@ -40,7 +40,7 @@
 // let no_of_employees; 
 
 
-var myFavoriteFestival = "Diwali";
-console.log(myFavoriteFestival);
+// var myFavoriteFestival = "Diwali";
+// console.log(myFavoriteFestival);
 
 
