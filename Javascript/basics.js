@@ -1,3 +1,11 @@
+// Javascript - programming language 
+// frontend, backend, desktop application, game development, AI/ML...
+
+// Javascript - in every browser there is a js engine present to execute the code
+
+// Chrome - V8, Edge - Chakra, Mozilla Firefox - spider monkey...
+
+
 // Printing 
 // console.log("In the file")
 
@@ -18,10 +26,11 @@
 // var _myname = "Pranathi";  //correct
 // let myname = "Prasanth"; //correct
 
-// const myname123 = "Sharath"; //incorrect
+// const 123myname = "Sharath"; //incorrect
 
 // // const total score = "45" //incorrect
-// let no_of_employees = 440; //correct
+// let no_of_employees = 440; //correct //snake case convetion
+// let noOfEmployees = 445;  //camel convention
 
 // let hello;
 

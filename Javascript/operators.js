@@ -12,8 +12,8 @@
 // console.log(5 + 3) // 5 , 3 operand --> + is operator
 // console.log(5 - 3)
 // console.log(5 * 3)
-// console.log(5 / 3)
-// console.log(5 % 3)
+// console.log(5 / 3) //qoutient
+// console.log(5 % 3) //remainder
 
 // 2. Assignment Operator - =, +=, -=, *=, /=, %=
 let marks = 10;
@@ -21,8 +21,8 @@ let marks = 10;
 // marks = marks + 1;
 marks += 1; //shorthand
 
-// console.log(marks -=3);
-// console.log(marks *=4); //44 
+// console.log(marks -=3);  //marks = marks - 3
+// console.log(marks *=4); //44  //marks = marks * 4;
 // console.log(marks /=4); //11
 // console.log(marks %=4); //3
 // marks /=2;  //2
@@ -45,10 +45,13 @@ marks += 1; //shorthand
 
 
 // 4. Logical Operator
-// let age = 18;
-// console.log( age > 18 && age < 20)  //both condition satifies then true
+// let age = 20;
+// console.log( age > 18 || age < 20)  //both condition satifies then true
 
-// console.log(!(age == 18));
+// console.log(!(age == 18)); !true -> false
+// !false = true 
+
+// and, or and not 
 
 // !(true) -> false
 // !(False) => true

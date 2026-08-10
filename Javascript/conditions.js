@@ -20,6 +20,8 @@
 
 // let marks = 69;
 
+
+// if else ladder -------
 // if (marks >= 90) {
 //   console.log("you get A+");
 // } else if (marks >= 80) {
@@ -43,6 +45,8 @@
 // let maxScore = 90;
 
 // console.log(maxScore === "90" ? "true" : "false")
+
+// number === string
 
 // == vs ===
 // == - check value

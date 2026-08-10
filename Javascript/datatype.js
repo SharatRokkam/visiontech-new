@@ -42,8 +42,8 @@ visiontech = "      John Doe    "
 
 // console.log(visiontech.replace("Batch 4", "Batch 50"))
 
-// console.log(visiontech.startsWith('Z'))
-// console.log(visiontech.endsWith('4'))
+// console.log(visiontech.startsWith('Z'))  //false 
+// console.log(visiontech.endsWith('4')) //false
 
 console.log(visiontech)
 console.log(visiontech.trim())
@@ -72,13 +72,16 @@ console.log(visiontech.trim())
 
 // let attendance = null; // intentional assigning the value to null if value not present
 
-// let flower;
-// console.log(flower)
+let attendance = null; 
+
+// let flower; //declared a variable not assigned any value...
+// console.log(flower)  // undefined
 
 
+
+// console.log(myBike) // accessing first
 
 // let myBike = "Honda Rebel"; // declaring variable later
-// console.log(myBike) // accessing first
 
 // const id1 = Symbol("Hello"); //different memory
 // const id2 = Symbol("Hello"); //different memory
