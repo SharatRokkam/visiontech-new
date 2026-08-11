@@ -75,13 +75,17 @@ const student1 = {
 
 // functionName(arguments)  // calling is very important
 
-function addition(a, b) {
-  console.log(a + b);
-}
 
-addition(10, 20)
-addition(1, 20)
-addition(22, 20)
-addition(220, 20)
-addition(122, 20)
+// function declaration
+// function addition(a, b) {
+//   console.log(a + b);
+// }
+
+// addition(10, 20) 
+// addition(1, 20)
+// addition(22, 20)
+// addition(220, 20)
+// addition(122, 20)
+
+
 
