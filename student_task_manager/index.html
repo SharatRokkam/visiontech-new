@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Task Manager</title>
+    <link rel="icon" href="./assets/icon.webp">
+    <!-- CSS file is linked here  -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- entire content of the website  -->
+    <div class="app">
+      <!-- header  -->
+      <header class="header">
+        <h1>Student Task Manager</h1>
+        <p>Organize your learning. Complete your goals.</p>
+        <div class="date" id="currentDate"></div>
+      </header>
+
+      <!-- statistics  -->
+      <section class="stats">
+        <div class="stat-card">
+          <span>Total Tasks</span>
+          <h2 id="totalTasks">0</h2>
+        </div>
+        <div class="stat-card">
+          <span>Pending</span>
+          <h2 id="pendingTasks">0</h2>
+        </div>
+        <div class="stat-card">
+          <span>Completed</span>
+          <h2 id="completedTasks">0</h2>
+        </div>
+      </section>
+
+      <!-- Add Task  -->
+      <section class="task-form">
+        <h2>Add New Task</h2>
+
+        <form id="taskForm">
+          <div class="input-group">
+            <input
+              type="text"
+              id="taskInput"
+              placeholder="Enter your task..."
+              required
+            />
+
+            <select id="priority">
+              <option value="low">Low Priority</option>
+              <option value="medium">Medium Priority</option>
+              <option value="high">High Priority</option>
+            </select>
+
+            <button type="submit">+ Add Task</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- controls  -->
+      <section class="controls">
+        <input type="text" id="searchInput" placeholder="🔍 search tasks" />
+
+        <div class="filters">
+          <button class="filter-btn" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="pending">Pending</button>
+          <button class="filter-btn" data-filter="completed">Completed</button>
+        </div>
+      </section>
+
+      <!-- Task List  -->
+      <section class="task-section">
+        <div class="section-heading">
+          <h2>My Tasks</h2>
+
+          <button id="clearCompleted">Clear Completed</button>
+
+          <div id="taskList" class="task-list">
+            <!-- Javascript will add task here  -->
+          </div>
+
+          <div id="emptyMessage" class="empty-message">
+            <div class="empty-icon">📑</div>
+            <h3>No Tasks found</h3>
+            <p>Add a task to get started</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- JS file is linked here  -->
+    <script src="./script.js"></script>
+  </body>
+</html>
