@@ -1,0 +1,32 @@
+1. Node modules (most important) - have all the dependecies of packages and modules used to run the react project.......
+
+File - Modules (fancy names)
+
+collection of multiple modules is called package (folder)
+
+2. Public - is used to keep css, audio video or images...
+
+
+3. SRC - 95% of the work you will do here only as it has all the code written by the developer...
+
+react follows component based architecture....
+App.jsx - component and in react extension .jsx
+
+1. Whenever you are creating a component always it should start with capital letter....
+
+JSX - Javascript XML - HTML + JS in one file only....
+
+App.jsx (entire code you will keep here)
+|
+main.jsx (import app.jsx and pass it here)
+|
+index.html (div#root)
+
+
+.gitignore - ignore the private and confidential file
+
+
+interview question.....
+package.json - handbook or the information about the project.... 
+package-lock.json - current version of information is locked in this file...
+
